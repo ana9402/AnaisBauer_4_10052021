@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(57, 57, 57);
 }
 
 .d-bloc .a-btn:hover,
@@ -639,7 +639,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -648,10 +647,11 @@ h6,
 p,
 label,
 .btn,
+cite,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #2F2F2F!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -715,21 +715,12 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -754,8 +745,8 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+.blue-background {
+    background-color: rgba(53, 69, 118, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -782,7 +773,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #2b2a2a!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1051,3 +1042,20 @@ blockquote p {
     font-style: italic;
 }
 
+#contact {
+    color: #F3976B!important;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 40px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-bann p {
+    font-size: 16px;
+}
