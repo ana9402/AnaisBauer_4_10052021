@@ -961,8 +961,7 @@ h3 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0 15px;
     }
     
     .bloc-xxl,
@@ -1016,13 +1015,6 @@ h3 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
@@ -1058,4 +1050,11 @@ form {
 
 .contact-bann p {
     font-size: 16px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
