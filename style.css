@@ -1058,3 +1058,8 @@ figure {
     align-items: center;
     text-align: center;
 }
+
+.thin {
+    font-size: 40px;
+    font-weight: 300;
+}
